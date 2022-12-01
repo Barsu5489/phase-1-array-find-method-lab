@@ -1,17 +1,6 @@
-// const result = records.find(records)
-// function superbowlWin(record)
-// {
-//     if (record == "W")
-//     {
-//         return result.year
-//     }
-//     else if (record != "W" && record != "L")
-//     {
-//         return undefined
-//     }
-// }
-function superbowlWin(record){
-for(let item of record)
+
+function superbowlWin(records){
+for(let item of records)
 {
     if (item.result == "W")
     {
@@ -19,3 +8,5 @@ for(let item of record)
     }
 }
 }
+
+record.find(superbowlWin)
